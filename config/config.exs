@@ -6,7 +6,7 @@
 import Config
 
 # General application configuration
-config :hoic, :phoenix, :json_library, Poison
+config :hoic, Poison
   ecto_repos: [Hoic.Repo]
 
 # Configures the endpoint
