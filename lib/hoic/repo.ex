@@ -1,5 +1,5 @@
 defmodule Hoic.Repo do
-  use Ecto.Repo, otp_app: :hoic
+  use Ecto.Repo, otp_app: :hoic, adapter: Ecto.Adapters.Postgres
 
   @doc """
   Dynamically loads the repository url from the
