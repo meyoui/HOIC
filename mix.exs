@@ -42,7 +42,8 @@ defmodule Hoic.Mixfile do
       {:gettext, "~> 0.19.1"},
       {:cowboy, "~> 2.9"},
       {:react_phoenix, "~> 1.3"},
-      {:plug_cowboy, "~> 2.5"}
+      {:plug_cowboy, "~> 2.5"},
+      {:ecto_sql, "~> 3.8"}
     ]
   end
 
