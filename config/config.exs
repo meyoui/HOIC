@@ -6,8 +6,8 @@
 import Config
 
 # General application configuration
-config :hoic,
- ecto_repos: [Hoic.Repo]
+config :phoenix, :json_library, Jason
+  ecto_repos: [Hoic.Repo]
 
 # Configures the endpoint
 config :hoic, HoicWeb.Endpoint,
