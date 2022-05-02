@@ -33,16 +33,16 @@ defmodule Hoic.Mixfile do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, "~> 1.3.4"},
-      {:phoenix_pubsub, "~> 1.0"},
-      {:phoenix_ecto, "~> 3.2"},
-      {:postgrex, ">= 0.0.0"},
-      {:phoenix_html, "~> 2.10"},
-      {:phoenix_live_reload, "~> 1.0", only: :dev},
-      {:gettext, "~> 0.11"},
-      {:cowboy, "~> 1.0"},
-      {:react_phoenix, "~> 0.3.0"},
-      {:plug_cowboy, "~> 1.0"}
+      {:phoenix, "~> 1.6"},
+      {:phoenix_pubsub, "~> 2.1"},
+      {:phoenix_ecto, "~> 4.4"},
+      {:postgrex, "~> 0.16.3"},
+      {:phoenix_html, "~> 3.2"},
+      {:phoenix_live_reload, "~> 1.3", only: :dev},
+      {:gettext, "~> 0.19.1"},
+      {:cowboy, "~> 2.9"},
+      {:react_phoenix, "~> 1.3"},
+      {:plug_cowboy, "~> 2.5"}
     ]
   end
 
