@@ -5,7 +5,7 @@ defmodule Hoic.Mixfile do
     [
       app: :hoic,
       version: "0.0.1",
-      elixir: "~> 1.4",
+      elixir: "~> 1.13.4",
       elixirc_paths: elixirc_paths(Mix.env),
       compilers: [:phoenix, :gettext] ++ Mix.compilers,
       start_permanent: Mix.env == :prod,
